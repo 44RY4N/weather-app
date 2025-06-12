@@ -25,7 +25,6 @@ A sleek, modern weather application that showcases real-time weather data with d
 
 ### 🖼️ Preview
 
-```md
 ## 📸 Project Preview
 
 ![App Preview](./assets/screenshot.png)
@@ -77,7 +76,8 @@ weather-app/
 ├──  webpack.config.dev.mjs                                             
 ├──  webpack.config.prod.mjs                                    
 └── assets/screenshot.png                                   
-    
+```
+--- 
 ![Live](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)
 ![Made with](https://img.shields.io/badge/Made%20with-JavaScript-yellow?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
