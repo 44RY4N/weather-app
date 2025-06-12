@@ -1,27 +1,26 @@
 {
   "name": "weather-app",
   "version": "1.0.0",
-  "description": "A weather app with time display using timeanddate.com widget",
-  "main": "index.html",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "cpx \"index.html\" dist && cpx \"*.{js,css}\" dist && cpx \"**/*.{js,css}\" dist --parents",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "start": "npx serve ."
+    "build": "webpack --config webpack.config.prod.mjs",
+    "start": "webpack serve --config webpack.config.dev.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/44RY4N/weather-app.git"
   },
-  "author": "<Your Name>",
-  "license": "MIT",
-  "dependencies": {
-    "cpx": "^1.5.0",
-    "gh-pages": "^6.1.1"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/44RY4N/weather-app/issues"
   },
   "homepage": "https://github.com/44RY4N/weather-app#readme",
   "devDependencies": {
-     "serve": "^14.2.3",
     "@babel/preset-env": "^7.27.2",
     "babel-loader": "^10.0.0",
     "css-loader": "^7.1.2",
